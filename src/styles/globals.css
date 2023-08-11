@@ -4,10 +4,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --blue700: #011b3c;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   font-weight: 400;
+  background-color: var(--blue700);
 }
 
 button {
