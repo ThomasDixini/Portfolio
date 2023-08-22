@@ -19,7 +19,7 @@
   color: #ffffff;
 }
 
-.summary>span {
+.summary > span {
   margin: 1rem 0;
   font-size: 1.5rem;
   color: #DDDDDD;
@@ -81,4 +81,91 @@
 .footer a:hover {
   color: white;
   opacity: 1;
+}
+
+.projectsSection {
+  position: relative;
+}
+
+.projectsSection > .projectsOverflow > div > p {
+  line-height: 1.6;
+  font-size: 1.125rem;
+  text-align: left;
+}
+
+.projectsOverflow {
+  position: absolute;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.projectsOverflow::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+.project {
+  padding: 1.5rem;
+  border-top: 1px solid transparent;
+}
+
+.project:first-of-type {
+  margin-top: 5rem;
+}
+
+.project + .project {
+  margin-top: 1rem;
+}
+
+.project:hover {
+  background-color: rgba(10, 50, 82, 0.4);
+  border-top: 1px solid rgba(10, 50, 82);
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.1);
+}
+
+.project strong {
+  color: white;
+}
+
+.project:hover strong {
+  color: aqua;
+  transition: color 0.3s;
+}
+
+.project:hover .project:not(:hover) {
+  opacity: 0.3;
+}
+
+.project a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+  text-decoration: none;
+  color: #aaaa;
+}
+
+.project a div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.4;
+  font-size: 1.125rem;
+}
+
+.project a ul {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  line-height: 1.4;
+  gap: 0.5rem;
+  list-style: none;
+  width: 60%;
+}
+
+.project a ul li {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px 20px;
+  background-color: rgba(20, 117, 117, 0.5);
+  color: aqua;
 }
