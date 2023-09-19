@@ -15,15 +15,17 @@
 }
 
 .menu li {
-    height: 85px;
-    font-size: 1.5rem;
+    height: 50px;
+    font-size: 1.2rem;
     font-weight: bold;
     margin-top: -1rem;
     padding: 1rem;
     position: relative;
     cursor: pointer;
-    color: white;
-    
+}
+
+.menu li:not(:hover) {
+    opacity: 0.8;
 }
 
 .menu li:hover::after {
@@ -35,5 +37,10 @@
     height: 4px;
     border-radius: 0 0 8px 8px;
     background-color: #C3DCFE;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
 }
 

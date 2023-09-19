@@ -6,24 +6,44 @@ export function Header(){
             <nav >
                 <ul className={styles.menu}>
                     <li>
-                        {' '}
-                        Início
+                        <a href="/">
+                            {' '}
+                            Início
 
-                        {' '}
+                            {' '}
+                        </a>
                     </li>
-
                     <li>
-                        {' '}
-                        Projetos
+                        <a href="/sobre">
+                            {' '}
+                            Sobre mim
 
-                        {' '}
+                            {' '}
+                        </a>
                     </li>
-
                     <li>
-                        {' '}
-                        Pacotes
+                        <a href="">
+                            {' '}
+                            Novidades
 
-                        {' '}
+                            {' '}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            {' '}
+                            Front-end
+
+                            {' '}
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            {' '}
+                            Back-end
+
+                            {' '}
+                        </a>
                     </li>
                 </ul>
             </nav>
