@@ -5,8 +5,6 @@ import { GithubLogo, InstagramLogo, LinkedinLogo } from '@phosphor-icons/react'
 export default function Home() {
   return (
       <>
-          <Header />
-
           <main className={styles.main}>
               <div className={styles.summary}>
                   <strong>
@@ -111,16 +109,6 @@ export default function Home() {
 
               <section className={styles.projectsSection}>
                   <div className={styles.projectsOverflow}>
-                      <div>
-                          <p>
-                              {' '}
-                              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                              Maxime libero molestiae nesciunt vel voluptas? Nam repellendus
-                              ex exercitationem iure. Quam maxime, ut cupiditate unde repellendus
-                              iure eveniet fugiat pariatur tenetur.
-                          </p>
-                      </div>
-
                       <article className={styles.project}>
                           <a href="#project">
                               <div>
