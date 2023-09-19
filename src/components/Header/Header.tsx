@@ -5,9 +5,26 @@ export function Header(){
         <header className={styles.headerContainer}>
             <nav >
                 <ul className={styles.menu}>
-                    <li> Início </li>
-                    <li> Projetos </li>
-                    <li> Pacotes </li>
+                    <li>
+                        {' '}
+                        Início
+
+                        {' '}
+                    </li>
+
+                    <li>
+                        {' '}
+                        Projetos
+
+                        {' '}
+                    </li>
+
+                    <li>
+                        {' '}
+                        Pacotes
+
+                        {' '}
+                    </li>
                 </ul>
             </nav>
         </header>
